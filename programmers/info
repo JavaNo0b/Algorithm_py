@@ -11,3 +11,15 @@ join(): 문자열.join(iterable) -> iterable 사이에 문자열을 삽입해 �
               ,'5':'f','6':'g','7':'h','8':'i','9':'j'}
       return ''.join(conv[i] for i in str(age))
 
+math.comb(a,b): <수학 조합식> => aCb
+  def solution(balls, share):
+  return math.comb(balls, share)
+
+간단하게 조건문 작성하기(사분면) : def solution(dot):
+                                quad = [(3,2),(4,1)]
+                                return quad[dot[0] > 0][dot[1] > 0]
+
+
+DAY10 다시풀기!!!!!!!!!!
+
+MAP함수 : map(function, iterable) => iterable객체의 각 원소에 function 적용 --> 반환이 map객체이므로 list변환 필요
