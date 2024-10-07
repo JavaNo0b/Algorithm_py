@@ -23,3 +23,8 @@ math.comb(a,b): <수학 조합식> => aCb
 DAY10 다시풀기!!!!!!!!!!
 
 MAP함수 : map(function, iterable) => iterable객체의 각 원소에 function 적용 --> 반환이 map객체이므로 list변환 필요
+
+문자열 (대,소문)함수 : str.upper(), str.lower(), str.swapcase(), str.capitalize(), str.title()
+
+문자열 정렬하기 : def solution(my_string):
+                  return ''.join(sorted(my_string.lower())) => sorted(my_string.lower()) 은 리스트를 반환하므로 문자열로 변환을 하기위해 ''.join()사용
